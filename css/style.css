@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:400,700");
+
 body {
   line-height: 1.7;
   font-family: "Roboto", sans-serif;
@@ -9,11 +10,49 @@ body {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Carousel CSS */
+.carousel-inner {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.w-48 {
+  width: 48%;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.carousel-item.active.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  list-style-type: none;
+}
+
+/* Carousel CSS End */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Work Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
@@ -50,7 +89,8 @@ p {
   color: #8b98af;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
   width: 100%;
 }
@@ -64,14 +104,20 @@ body, html {
   background: #e1a34c;
 }
 
-input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
   box-shadow: none;
   height: 45px;
   outline: none;
   font-size: 14px;
 }
 
-input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus {
   box-shadow: none;
   border: 0px;
   border-bottom: 1px solid #e1a34c;
@@ -150,7 +196,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-radius: 50px;
 }
 
-.btn.active:focus, .btn:active:focus, .btn:focus {
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
   outline: 0;
 }
 
@@ -214,11 +262,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background: #bc2a8d;
 }
 
-.overly, .bg-3 {
+.overly,
+.bg-3 {
   position: relative;
 }
 
-.overly:before, .bg-3:before {
+.overly:before,
+.bg-3:before {
   content: "";
   position: absolute;
   left: 0;
@@ -276,12 +326,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-top: 1px solid #19273e;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   outline: 0;
   text-decoration: none;
 }
 
-.nav .open > a {
+.nav .open>a {
   background: transparent;
 }
 
@@ -649,13 +700,16 @@ a:hover, a:focus {
   .navbar-toggler {
     background: #fff !important;
   }
+
   .navigation {
     background: #131f33 !important;
   }
+
   .text-lg {
     font-size: 68px;
     line-height: 70px;
   }
+
   .py-7 {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
@@ -666,38 +720,48 @@ a:hover, a:focus {
   .navigation {
     background: #131f33 !important;
   }
+
   .navbar-toggler {
     background: #fff !important;
   }
+
   .text-lg {
     font-size: 52px;
     line-height: 52px;
   }
+
   .title {
     font-size: 39px;
     line-height: 49px;
   }
+
   .progress-bar .percent-text {
     font-size: 39px;
     top: -70px;
   }
+
   .skill-bar {
     padding: 32px 10px 0px 10px;
   }
+
   .testimonial-slider .testimonial-content {
     padding-left: 0px;
   }
+
   .testimonial-item i {
     position: relative !important;
     font-size: 60px !important;
   }
+
   .py-7 {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
   }
+
   .post-share a {
     margin-bottom: 5px;
   }
+
   .slider-img:before {
     right: -6px;
   }
@@ -707,38 +771,48 @@ a:hover, a:focus {
   .navigation {
     background: #131f33 !important;
   }
+
   .text-lg {
     font-size: 52px;
     line-height: 52px;
   }
+
   .title {
     font-size: 39px;
     line-height: 49px;
   }
+
   .progress-bar .percent-text {
     font-size: 39px;
     top: -70px;
   }
+
   .skill-bar {
     padding: 32px 10px 0px 10px;
   }
+
   .testimonial-slider .testimonial-content {
     padding-left: 0px;
   }
+
   .testimonial-item i {
     position: relative !important;
     font-size: 60px !important;
   }
+
   .navbar-toggler {
     background: #fff !important;
   }
+
   .py-7 {
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
   }
+
   .post-share a {
     margin-bottom: 5px;
   }
+
   .slider-img:before {
     right: -6px;
   }
